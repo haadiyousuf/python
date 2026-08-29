@@ -375,6 +375,32 @@
 #     print('a is not defined')
 
 
+# try:
+#     lt=[12,14,10]
+#     print(lt[3])
+
+# except IndexError:
+#     print("this item doesn't belong in list")
+
+
+# try:
+#     dt={
+#         "name":"haadi"
+#     }
+#     print(dt['age'])
+# except KeyError:
+#     print("this key doesn't belong to dt")
+
+# try:
+    # a=10
+    # a.append(20)
+
+# except AttributeError:
+    # print("this thing doesn't belong to this")
+
+    
+
+
 
 # file=open(r'C:\Users\YOUSUF\Desktop/okay/haadi.txt','w')
 # file.write("hello haadi")
