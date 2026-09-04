@@ -399,7 +399,119 @@
     # print("this thing doesn't belong to this")
 
     
+# def add(x,y):
+#     print(x+y)
 
+# a=int(input("enter an number:-"))
+# b=int(input("enter an number:-"))
+# add(a,b)
+
+# from index1  import add,sq
+# a=int(input("enter an number:-"))
+# b=int(input("enter an number:-"))
+# add(a,b)
+# sq(a)
+
+
+# lambda is a type of function which is used  for smaller tasks
+
+
+# add=lambda x,y:x+y
+# print(add(11,12))
+
+
+# sq=lambda x:x*x
+# print(sq(3))
+
+
+# even_odd=lambda x:'even'if x%2==0 else 'odd'
+
+# print(even_odd(9))
+
+
+# lt=[2,3,9,4,8]
+# sq=tuple(map(lambda x:x*x,lt))
+# print(sq)
+
+
+
+# num=['11','22','21','10','89']
+# ap=list((map(int,num)))
+# print(ap)
+
+
+# num=[1,2,3,4,5,6,7,8,9,10]
+# sq=list(filter(lambda x:x%2==0,num))
+# print(sq)
+
+
+# names=['BOB','HAADI','ALIVE','KHAN']
+# n=list(map(str.lower,names))
+# print(n)
+
+
+# a='zarah'
+
+# print(a.capitalize())
+
+
+# a='haadi'
+
+# print(a.upper())
+
+
+
+# lt=[-70,21,-12,7,56,90,11]
+# n=list(filter(lambda x:x<0,lt))
+# print(n)
+
+
+
+# fruits=['kiwi','apple','mange','waterelon','orange','bananan']
+# n=list(filter(lambda x:len(x)>4,fruits))
+
+# print(n)
+
+
+
+# file handling is the process of creating updating and deleting a particular file
+
+# r stands for reading file
+# w stands for creting a file
+# a stands for updating a particular file
+# x stands for creating a new file
+
+
+
+# here we create a File
+
+# file=open('file.txt','w')
+# file.write("hello from world")
+# file .close()
+
+
+# # here we read a file
+
+# file=open('file.txt','r')
+# new=file.read()
+# print(new)
+
+
+# f=open('file.txt','w')
+# f.write('hello world')
+# f=open('file.txt','a')
+# f.write(' ,from haadi')
+
+# file.close()
+
+
+# f=open('file.txt','r')
+# d=f.read()
+# print(d)
+
+
+# f=open('file.txt','x')
+# f.close()
 
 
 # file=open(r'C:\Users\YOUSUF\Desktop/okay/haadi.txt','w')
@@ -411,19 +523,67 @@
 #     f.write("hello hadu")
 
 
+# object oriented programing language is programing concept that make our more cleaner more reusble and more in format 
+# and provide clean mode
+# encapsulation
+# abstraction
+# inheritence
+# polymorphism
+
+# class ils:
+#     def great(self):
+#         print("hello from ils")
+#     def bye(self):
+#         print("bye from ils")
+
+# i=ils()  (object is a insatnce of classes)
+# i.great()
+# i.bye()
 
 
+# class cat:
+#     def speak(self):
+#         print('meow meow')
+    
+# class dog :
+#     def speak(self):
+#         print('bow bow')
+
+# c=cat()
+# d=dog()
+# c.speak()
+# d.speak()
 
 
+# class animal:
+#     def walk(self):
+#         print("animal is walking")
 
 
+# class dog(animal):
+#     def bark(self):
+#         print("dog barks!")
 
+# d=dog()
+# d.bark()
+# d.walk()
 
+# acess specifer allows us to manange the visibility and acessability of class atrinutes
+# in python there is no true acess specifer like jave,c++ and c
 
+        
+# class ils:
+#     def __init__(self):
+#        pass
+    
+#     def bloop(self):
+#         print('amazing')
+#     def stoop(self):
+#         print('stupifying')
 
-
-
-
+# i=ils()
+# i.bloop()
+# i.stoop()
 
 
 
